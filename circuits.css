@@ -25,9 +25,9 @@ figure {
     display: inline-block;
     text-align: center;
     width: 550;
+    font-family: arial;
+    font-weight: bolder;
 }
 figcaption {
-    margin-top: 20 ;
-    font-family: arial ;
-    font-weight: bolder;
+    margin-top: 20;
 }
