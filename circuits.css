@@ -31,3 +31,14 @@ figure {
 figcaption {
     margin-top: 20;
 }
+a {
+  display: inline-block;
+  width: 180;
+  margin-right: 20; 
+  text-align: center;
+  line-height: 3;
+  color: red;
+}
+a:link{
+  background: black;
+}
