@@ -9,11 +9,25 @@
     <img src= "f1(1).png" alt= "logo f1">
     <h1>BIENVENUE !</h1>
     <ul><li><a href="https://sebiww4.github.io/mywebsite/ecuries.html">Les Écuries</a></li><li><a href="https://sebiww4.github.io/mywebsite/circuits.html">Les Circuits</a></li><li><a href="#">etc</a></li></ul>
+    <input type="button" id='boutonvideo' value="Afficher la vidéo" onclick="
+if (document.getElementById('divvideo').style.display == 'none')
+{
+document.getElementById('divvideo').style.display = 'block';
+document.getElementById('boutonvideo').value = 'Masquer la vidéo';
+}
+else
+{
+document.getElementById('divvideo').style.display = 'none';
+document.getElementById('boutonvideo').value = 'Afficher la vidéo';
+}
+" />
+    <div id="divvideo" style= "display:block;" >
     <video controls width="700">
         <source src= "f1opening.mp4" type= "video/mp4">
     </video>
     <h2>Vidéo d'introduction de la F1</h2>
-    
+    </div>
+    <script src="action(1).js"></script>
     
     </body>
 
