@@ -12,6 +12,8 @@ h1 {
 }
 ul {
     margin: 0;
+    padding-left: 100;
+    padding-right: 100;
 }
 li {
     display: inline;
