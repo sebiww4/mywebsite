@@ -42,3 +42,9 @@ a {
 a:link{
   background: black;
 }
+p {
+    font-family: arial;
+    font-size: 20;
+    font-weight: bolder;
+    
+}
