@@ -1,0 +1,37 @@
+body {
+    background-image: url("motif(1).png") ;
+    padding: 30;
+}
+h1 {
+    color: red;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50;
+    font-family: arial;
+    margin: 15;
+}
+div img {
+    display: block;
+    margin: 10 auto;
+}
+video {
+    display: block;
+    margin: auto;
+}
+a {
+  display: inline-block;
+  width: 180;
+  margin-right: 20; 
+  text-align: center;
+  line-height: 3;
+  color: red;
+}
+a:link{
+  background: black;
+}
+p {
+    font-family: arial;
+    margin-top: 20;
+    font-size: 21;
+    background: lightgray;
+}
