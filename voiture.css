@@ -32,3 +32,21 @@ p {
     font-weight: bolder;
     
 }
+ul {
+    margin: 0;
+    padding-left: 100;
+    padding-right: 100;
+}
+li {
+    display: inline;
+}
+figure {
+    display: inline-block;
+    text-align: center;
+    width: 550;
+    font-family: arial;
+    font-weight: bolder;
+}
+figcaption {
+    margin-top: 20;
+}
