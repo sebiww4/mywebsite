@@ -49,4 +49,6 @@ figure {
 }
 figcaption {
     margin-top: 20;
+    font-size: 19;
+    background: lightgray;
 }
