@@ -28,6 +28,7 @@ a {
   text-align: center;
   line-height: 3;
   color: red;
+  border-radius: 10px;
 }
 a:link{
   background: black;
