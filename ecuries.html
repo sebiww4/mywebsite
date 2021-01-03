@@ -30,8 +30,37 @@
     <p>Alfa Romeo F1 Team</p>
     <img src= "montagewilliams.png" alt= "williams" >
     <p>Williams Racing</p>
-
-
+    
+    <div class="question" >
+    <p>QUESTION :</p>
+    <p>Combien y a-t-il d'écuries au Championnat du Monde de Formule 1 en 2020 ?</p>
+    </div>
+    <div id="reponse" class="reponse" >
+    <p> </p>
+    </div>
+    <div>
+    <input type="checkbox" id="choix1" class="choix1" >
+    <label for="choix1">10</label>
+    
+    <input type="checkbox" id="choix2" >
+    <label for="choix2">11</label>
+    
+    <input type="checkbox" id="choix3" >
+    <label for="choix3">12</label>
+    
+    </div>
+    <div>
+    <input type="button" id="valider" value="valider" onclick="
+if (document.getElementById('choix1').checked)
+{
+document.getElementById('reponse').innerHTML = 'Bonne Réponse';
+}
+else
+{
+document.getElementById('reponse').innerHTML = 'Mauvaise Réponse';
+}
+" />
+   </div>
         
     </body>
 

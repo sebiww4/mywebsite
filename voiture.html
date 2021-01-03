@@ -14,7 +14,36 @@
         <p>Présentation de la Formule 1.</p>
         <ul><li><figure><img src= "moteur.png" alt="moteur" width="500" ><figcaption>Le Moteur<br><br>Le moteur est l'une des pièces les plus complexes et secrètes de la monoplace. C'est un V6 turbo hybride, c'est à dire que d'une part il y a un moteur thermique utilisant de l'essence enrichie et d'une autre part un moteur électrique qui fonctionne grâce à l'ERS qui est un système qui récupère l'énergie thermique du freinage pour en produire de l'électricité. En 2020, trois motoristes sont présents : Ferrari, Honda et Mercedes qui ce dernier domine la discipline depuis 2014.</figcaption></figure></li><li><figure><img src= "aero.png" alt= "aerof1" width= "500" ><figcaption>L'Aérodynamisme<br><br>L'aérodynamisme est l'une des choses les plus importantes en Formule 1. La forme des monoplaces est conçue d'une manière à ce que le flux d'air ralentisse le moins possible le vehicule, tout en garantissant un appui suffisant pour passer les virages à haute vitesse. Sur les flancs gauche et droite, l'air rentre dans coque pour refroidir légèrement le moteur. Toute la carrosserie de la Formule 1 est en carbone pour l'alléger au maximum. Enfin sur l'aileron arrière un élément que l'on appele DRS se lève dans certaines zones de la piste pour gagner en vitesse.</figcaption></figure></li><li><figure><img src= "pneu.png" alt= "pneuf1" width= "500" ><figcaption>Les Pneus<br><br>En Formule 1 il existe 2 catégories de pneus : les pneus pour piste sèche et les pneus pour piste mouillée. Pour les pneus pour piste sèche il existe 3 types de pneus : les pneus soft (rouge) qui offrent une meilleure adhérence mais qui s'usent plus vite, les pneus hard (blanc) qui ont une moins bonne adhérence mais qui s'usent moins vite, et enfin les pneus medium (jaune) qui sont équilibrés. En course, il faut utiliser au moins 2 types de gomme différentes, cela permet un bon nombres de stratégies.</figcaption></figure></li><li><figure><img src= "volant.png" alt= "volantf1" width= "500" ><figcaption>Le Volant<br><br>Le volant d'une Formule 1 n'est pas un volant que l'ont peut retrouver couramment dans des vehicules de série. Au centre de celui-ci nous pouvons retrouver un écran avec des indications comme la vitesse, le rapport de boite ou  même la consommation de carburant. A l'arrière se trouve les palettes pour passer les vitesses et l'embrayage. Un bouton sert à changer la consommation de carburant pour en économiser ou en utiliser plus. Un autre sert à activer le DRS que j'ai évoqué dans la partie sur l'aérodynamisme.</figcaption></figure></li></ul>
 
-
+    <div class="question" >
+    <p>QUESTION :</p>
+    <p>De quelle couleur est le pneu qui s'use le moins vite ?</p>
+    </div>
+    <div id="reponse" class="reponse" >
+    <p> </p>
+    </div>
+    <div>
+    <input type="checkbox" id="choix1" class="choix1" >
+    <label for="choix1">Blanc</label>
+    
+    <input type="checkbox" id="choix2" >
+    <label for="choix2">Jaune</label>
+    
+    <input type="checkbox" id="choix3" >
+    <label for="choix3">Rouge</label>
+    
+    </div>
+    <div>
+    <input type="button" id="valider" value="valider" onclick="
+if (document.getElementById('choix1').checked)
+{
+document.getElementById('reponse').innerHTML = 'Bonne Réponse';
+}
+else
+{
+document.getElementById('reponse').innerHTML = 'Mauvaise Réponse';
+}
+" />
+   </div>
 
 
     </body>

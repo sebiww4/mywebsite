@@ -14,9 +14,40 @@
         <video controls width="700">
             <source src= "pitstop.mp4" type= "video/mp4">
         </video>
+        <div class="text">
         <p>L'arrêt au stand montré dans la vidéo est l'arrêt au stand le plus rapide au monde en 1.86s. La voiture arrive dans les stands à 80 Km/h et doit se positionner à son arrêt à cette vitesse. 25 personnes doivent alors enlever les pneus et en mettre des nouveaux. Dans un premier temps, une personne à l'avant et une personne à l'arrière lève le vehicule avec un outil appelé "lève-vite". Sur les cotés gauche et droite 2 personnes tiennent le chassis en place pour éviter un maximum les vibrations. Les mécaniciens utilisent des "pistolets" qui peuvent tourner àplus de 15000 tours/min pour devisser les pneus. 4 mécaniciens commencent par enlever les pneus usés tandis que 4 autres mettent les nouveaux. Pour le pilote, une lumière verte lui dis quand il peut lacher l'embrayage et partir. Enfin lorsque tout les pneus ont été changés, le mécanicien à l'avant se décale et laisse partir la Formule 1. Pour certaines stratégies, les écuries peuvent faire rentrer au stand les deux pilotes en même temps, mais pour cela il faut une parfaite maîtrise de cet exercice.</p>
+        </div>
         
-
+    <div class="question" >
+    <p>QUESTION :</p>
+    <p>Au début de la vidéo, sur le panneau rouge à droite du pilote, qu'était-il écrit ?</p>
+    </div>
+    <div id="reponse" class="reponse" >
+    <p> </p>
+    </div>
+    <div>
+    <input type="checkbox" id="choix1" class="choix1" >
+    <label for="choix1">"STOP"</label>
+    
+    <input type="checkbox" id="choix2" >
+    <label for="choix2">"BRAKES"</label>
+    
+    <input type="checkbox" id="choix3" >
+    <label for="choix3">"PIT"</label>
+    
+    </div>
+    <div>
+    <input type="button" id="valider" value="valider" onclick="
+if (document.getElementById('choix2').checked)
+{
+document.getElementById('reponse').innerHTML = 'Bonne Réponse';
+}
+else
+{
+document.getElementById('reponse').innerHTML = 'Mauvaise Réponse';
+}
+" />
+   </div>
 
 
 
