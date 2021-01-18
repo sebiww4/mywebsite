@@ -3,12 +3,19 @@ body {
     padding: 30;
 }
 h1 {
-    color: red;
+    color: black;
     text-align: center;
     font-weight: bolder;
     font-size: 50;
     font-family: arial;
     margin: 15;
+    background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450;
+    box-shadow: 10px 5px 0px black;
+    text-shadow: white 2px 0px 3px;
 }
 ul {
     margin: 0;
@@ -34,6 +41,8 @@ figcaption {
     margin-top: 20;
     font-size: 19;
     background: lightgray;
+    border-radius: 50px;
+    box-shadow: 10px 5px 12px black;
 }
 a {
   display: inline-block;
@@ -41,11 +50,15 @@ a {
   margin-right: 20; 
   text-align: center;
   line-height: 3;
+  font-family: arial;
+  font-size: 15;
   color: red;
   border-radius: 10px;
+  box-shadow: 10px 5px 0px black;
+  text-decoration: none;
 }
 a:link{
-  background: black;
+  background: white;
 }
 p {
     font-family: arial;
@@ -73,11 +86,12 @@ p {
   font-size: 40;
   font-family: arial;
   margin: 15;
-  background-color: black;
+  background-color: white;
   border-radius: 10px;
   margin-left: auto;
   margin-right: auto;
   width: 450;
+  box-shadow: 10px 5px 0px black;
 }
 input {
     padding: 10;
@@ -85,12 +99,16 @@ input {
     display: block;
     font-family: arial;
     color: red;
-    background: black;
+    background: white;
     border-radius: 10px;
+    box-shadow: 2px 2px 0px black;
 }
 label {
     color: red;
     font-weight: bolder;
-    font-size: 30;
+    font-size: 28;
     font-family: arial;
+    background-color: white;
+    box-shadow: 10px 5px 0px black;
+    border-radius: 10px;
 }
