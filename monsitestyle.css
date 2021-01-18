@@ -39,7 +39,7 @@ a {
   margin-right: 20; 
   text-align: center;
   line-height: 3;
-  color: red;
+  color: black;
   font-family: arial;
   font-weight: bolder;
   font-size: 13;
@@ -49,6 +49,10 @@ a {
 }
 a:link{
   background: white;
+}
+a:hover {
+    background-image: url("smoke.gif");
+    background-size: cover;
 }
 video {
     display: block;
@@ -67,4 +71,8 @@ input {
     background: white;
     border-radius: 10px;
     box-shadow: 10px 5px 0px black;
+}
+input:hover {
+    background-image: url("smoke.gif");
+    background-size: cover;
 }

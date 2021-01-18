@@ -37,9 +37,14 @@ a {
   border-radius: 10px;
   box-shadow: 10px 5px 0px black;
   text-decoration: none;
+  margin-bottom: 15;
 }
 a:link{
   background: white;
+}
+a:hover {
+    background-image: url("smoke.gif");
+    background-size: cover;
 }
 .text {
     font-family: arial;

@@ -44,6 +44,10 @@ a {
 a:link{
   background: white;
 }
+a:hover {
+    background-image: url("smoke.gif");
+    background-size: cover;
+}
 .reponse {
   color: red;
   text-align: center;

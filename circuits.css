@@ -60,6 +60,10 @@ a {
 a:link{
   background: white;
 }
+a:hover {
+    background-image: url("smoke.gif");
+    background-size: cover;
+}
 p {
     font-family: arial;
     font-size: 20;
