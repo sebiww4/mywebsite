@@ -19,12 +19,26 @@ h1 {
     width: 450;
     box-shadow: 10px 5px 0px black;
     text-shadow: white 2px 0px 3px;
+    transition: transform 1s;
+}
+h1:hover {
+    background-image: url("f12.gif");
+    background-size: cover;
+    background-position: center;
+    text-indent:-9999px;
 }
 h2 {
     text-align: center;
     font-size: 15;
     margin: 5;
     font-family: arial;
+    background: white;
+    font-weight: bolder;
+    box-shadow: 10px 5px 0px black;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    width: 250;
 }
 ul {
   padding: 0;
@@ -47,7 +61,7 @@ a {
   border-radius: 10px;
   text-decoration: none;
   box-shadow: 10px 5px 0px black;
-  transition: transform 1s;
+  transition: transform 0.5s;
 }
 a:link{
   background: white;
@@ -64,12 +78,17 @@ video {
 img {
     display: block;
     margin: 10 auto;
+    transition: transform 2s;
+}
+img:hover {
+    transform: rotate3d(1,1,1,360deg);
 }
 input {
     padding: 10;
     margin: auto;
     display: block;
     font-family: arial;
+    font-weight: bolder;
     color: black;
     background: white;
     border-radius: 10px;
