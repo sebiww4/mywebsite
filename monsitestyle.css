@@ -46,6 +46,7 @@ a {
   border-radius: 10px;
   text-decoration: none;
   box-shadow: 10px 5px 0px black;
+  transition: transform 1s;
 }
 a:link{
   background: white;
@@ -53,6 +54,7 @@ a:link{
 a:hover {
     background-image: url("smoke.gif");
     background-size: cover;
+    transform: scale(1.1);
 }
 video {
     display: block;
