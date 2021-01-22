@@ -25,6 +25,12 @@ ul {
 li {
     display: inline;
 }
+img {
+    transition: transform 1s;
+}
+img:hover {
+    transform: scale(1.1);
+}
 div img {
     display: block;
     margin: 10 auto;

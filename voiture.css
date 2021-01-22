@@ -57,6 +57,12 @@ ul {
 li {
     display: inline;
 }
+img {
+    transition: transform 1s;
+}
+img:hover {
+    transform: scale(1.1);
+}
 figure {
     display: inline-block;
     text-align: center;
